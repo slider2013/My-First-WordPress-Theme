@@ -1,0 +1,516 @@
+/*Velkommen til mit stylesheet*/
+
+img{
+    max-width:100%;
+height:auto;
+}
+
+#primary-sidebar, .primary-sidebar a{
+    color:#0B1919;
+    text-decoration: underline;
+}
+
+.sumome-popup-link{
+    display:none;
+}
+
+body{
+line-height:1.7;
+}
+
+.code-example{
+    background-color:lightblue;
+}
+
+ul, ol{
+    padding-left: 42px;
+    padding-top: 20px;
+}
+
+h1{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+h2{
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+h3{
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+h4{
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+h5{
+    font-size: 10px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/*Link*/
+a {
+    color: aqua;
+    text-decoration:none;
+}
+
+header a{
+    color: #0B1919;
+    text-decoration:none;
+}
+
+header ol, ul{
+list-style: none;
+}
+
+#content a{
+    color:#0B1919;
+    text-decoration:underline;
+}
+
+#content { 
+    width: 56%;
+    /* border: 2px #a2a2a2 solid; */
+    float: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+#content ul{
+ list-style-type: circle;
+}
+
+#primary-sidebar, .primary-sidebar{
+width: 23%; 
+float: right;
+background: white;
+margin-right: 42px;
+    margin-bottom: 40px;
+    padding-right:18px;
+    padding-bottom:18px;
+    text-align:center;
+}
+
+#sidebar { 
+display:none;
+}
+
+
+/*header*/
+header{
+    width: 100%;
+    height: 137px;
+    background: aqua;
+    background: -webkit-linear-gradient(aqua, white);
+    background: -o-linear-gradient(aqua, white);
+    background: -moz-linear-gradient(aqua, white);
+    background: linear-gradient(white, aqua);
+    box-shadow: 0 3px 11px rgba(0,0,0,1);
+    position: fixed;
+    z-index: 999;
+    top: 0px;
+}
+
+/*Footer*/
+footer{
+	margin-top: 100px;
+	padding-top: 10px;
+	width:100%;
+	height:100px;
+	background-color:#0B1919;
+	font-family: 'Lato', sans-serif;
+	box-shadow:0 -3px 11px rgba(0,0,0,1);
+	overflow: hidden;
+        bottom: 0;
+}
+
+/*Footer-info*/
+.footer-info{
+	color:white;
+	text-align:center;
+	padding-top: 5px;
+	line-height:1;
+}
+
+.footer-info a{
+	color: #00ffff;
+}
+
+/*Nav*/
+.textwidget{
+    float: left;
+    padding-left: 18px;
+    margin-top: -3px;
+}
+#menu-header-menu ul li{
+width: 98%;
+height: 50px;
+margin-left: 1%;
+}
+
+header .menu-item{
+padding-left: 3%;
+    float: right;
+    font-size: 16.5px;
+    margin-top: 33px;
+    margin-right: 46px;
+    color:#0B1919;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+nav{
+width: 98%;
+height: 50px;
+margin-left: 1%;
+}
+
+/*Nav ul li*/
+nav ul li{
+    padding-left: 3%;
+    float: right;
+    font-size: 16.5px;
+    margin-top: 63px;
+    margin-right: 22px;
+    color:#0B1919;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.p-om-bold{
+	font-weight:bold;
+	padding-right:4.9%;
+}
+
+.p-om{
+	padding-right:4.9%;
+}
+
+.om-billeder{
+	float:left;
+	width: 30%;
+	padding-right:4.9%;
+}
+
+/*h2 Kundeanmeldelser id*/
+#h2-kundeanmeldelser{
+	text-align:center;
+	font-weight:bold;
+    margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;
+    color:#0B1919;
+    font-size:25px;
+	padding-top: 0.5em;
+}
+
+#matthew{
+	height:20%; 
+	width:20%;
+	float: left;
+}
+
+/*h2 forside class*/
+.h2-forside{
+	text-align:center;
+	font-weight:bold;
+	margin-top: 67px;
+    margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;
+    color:#0B1919;
+    font-size:25px;
+}
+
+.h2-underside{
+	font-weight:bold;
+	margin-top: 67px;
+    margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;
+    color:#0B1919;
+    font-size:25px;
+}
+
+/*Priser*/
+#priser{
+	text-align: center;
+	margin-bottom: 140px;
+}
+
+.ul-priser{
+	list-style-type:disc;
+}
+
+.li-priser{
+	margin-top: 18px;
+    margin-left: 16px;
+}
+
+/*White space*/
+.white-space{
+	height:5px;
+	width:100%;
+}
+
+/*Fuld bredde main class*/
+.full-width{
+	width:100%;
+	height:100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	margin-top: 269px;
+}
+
+/*Text over billede*/
+#text-over-billede{
+    padding-top: 152px;
+}
+
+/*Fuld bredde box id*/
+#full-width-box{
+    margin-bottom: 140px;
+}
+
+/*de forskellige pakker/services*/
+.pakke{
+	padding: 15px;
+	width: 17%;
+    margin-left: 3%;
+	text-align: center;
+	display: inline-block;
+	overflow:hidden;
+    margin-bottom: 60px;
+    border: 1px solid #0B1919;
+    border-radius: 9px;
+    min-height: 200px;
+}
+
+/*kundeanmeldelser*/
+#kundeanmeldelser{
+    margin-bottom: 200px;
+    margin-left: 8.5%;
+    overflow: auto;
+    padding-bottom: 1em;
+}
+
+/*kundetekst*/
+#kundetekst{
+	padding-left: 28%;
+    padding-right: 12%;
+    line-height: 18px;
+    height: auto;
+}
+
+/*artiklen anmeldelse gives skygger*/
+.article-anmeldelser{
+	box-shadow: 0 0px 11px rgba(0,0,0,1);
+	margin-top: -15px;
+	margin-bottom: -61px;
+}
+
+.article-om{
+	padding-bottom: 139px;
+	margin-left:4.5%;
+}
+
+.article-priser{
+text-align:center;
+margin-top: 135px;
+margin-bottom: 135px;
+}
+
+#desktop-priser{
+	width:66%; 
+	height:66%;
+}
+
+#logo{
+margin-top: -3px;
+}
+
+/*Responsive/burger menu bliver skjult på desktop*/
+.responsive-menu{
+	display:none;
+}
+
+/*mobile logo bliver skjult på dekstop*/
+#logo-mobile{
+	display:none;
+}
+
+.article-with-sidebar{
+	margin-top: 269px;
+	margin-left: 4.5%;
+	margin-bottom: 7px;
+
+}
+
+.article-kontakt{
+	margin-top: 250px;
+	margin-left: 4.5%;
+	margin-bottom: 117px;
+	
+}
+
+.sidebar{
+	background-color: #0B1919;
+    float: right;
+        height: 591px;
+    width: 20%;
+    margin-top: -621px;
+    overflow: hidden;
+    margin-right: 2.5%;
+}
+
+.sidebar-page-template{
+	width:75%;
+}
+
+.blog-feed{
+	padding-bottom: 30px;
+}
+
+#jotform{
+
+}
+
+/*------------------------------------------------------------------------------*/
+
+	/*Her laver jeg sitet responsivt!*/
+	
+	@media (min-width: 0px) and (max-width: 768px) {
+	
+	#content { 
+    	width: 75%;
+	
+	}	
+
+	#primary-sidebar, .primary-sidebar {
+	display:none;
+	}
+	
+	.sidebar{
+		display:none;
+		
+	}
+
+	/*desktop menu bliver skjult*/
+	.desktop-nav, .menu{
+		display:none;
+	}
+
+	/*ul li justeres så den passer til når skærmen bliver mindre */
+	nav ul li{
+	font-size: 17px;
+    display: block;
+    float: none;
+    margin-top: 7px;
+    margin-left: -12%;
+	}
+
+	/*responsive menu er skjult, indtil der klikkes på menu-btn*/
+	.responsive-menu{
+	display:none;
+	}
+
+	/*burger menuen*/
+	.menu-btn{
+		display:block;
+		float: right;
+	        margin-top: 56px;
+    padding-right: 34px;
+	}
+
+	.menu-btn span {
+		display: block;
+		width: 19px;
+		height: 3px;
+		margin: 4px 0;
+		background-color:#0B1919;
+		z-index: 99999;
+	}
+
+	/*Efter klik på burger menuen bliver .expand aktiveret*/
+	.expand {
+	    float: right;
+	    margin-right: 5%;
+	    margin-top: -5px;
+	    display:block !important;
+	}
+	
+	.expand ul li {
+	    padding-bottom:14px;
+	}
+
+	/*kundetekst justeres i højden, så den passer helt ned til mobil bredde*/
+	#kundetekst{
+    height: auto;
+	}
+
+	/*de forskellige løsnings/pris pakker styles her*/
+	.pakke{
+	width: 75%;
+	height:auto;
+	padding: 25px;
+	}
+	}
+	
+	/*mobil*/
+	@media (min-width : 0px) and (max-width : 480px) {
+
+	.blog-feed{
+		width:100%;
+	}
+
+	nav ul li {
+		background-color: white;
+		position: relative;
+}
+}
+	/*Custom Breakpoint */
+	@media (min-width: 795px) and (max-width: 1160px) {
+	
+	
+	}
+	
+	@media (min-width: 0px) and (max-width:684px){
+	
+	}
+
+	/*Custom Breakpoint */
+	@media (min-width: 480px) and (max-width: 628px) {
+	
+	}
+
+/*Custom Breakpoint */
+	@media (min-width: 0px) and (max-width: 481px) {
+	.menu-btn{
+	    display:none;
+	}
+	.expand{
+	    display:none;
+	}
+	}
+.credits{
+	float:right;
+    	padding-top: 81px;
+    	padding-right: 81px;
+}
+.credits a{
+	color:aqua; 
+}
